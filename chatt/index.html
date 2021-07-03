@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.webrtc.ecl.ntt.com/skyway-4.4.1.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>1080p 60fpsの画面共有</title>
 </head>
@@ -14,6 +15,19 @@
   <p id="my-id">wwwwwww</p>
   <textarea id="set-id"></textarea>
   <button type="button" id="start">接続する</button>
+  <br>
+  <video id="dispvideo" tabindex="0" autoplay width="1280px" height="720px" control="false" controlslist="nodownload" disablePictureInPicture muted playsinline></video>
+
+  <p id="getconnected">接続されていません</p>
+  
+  <input type="text" id="chatsend">
+  <button type="button" id="sending">送信する</button>
+  <br>
+
+  <textarea id="chat"></textarea>
+
+
+
   <script src="index.js"></script>
 </body>
 

@@ -1,3 +1,17 @@
+<script type="text/javascript"><!--
+function myEnter(){
+     myPassWord=prompt("パスワードを入力してください","");
+     if ( myPassWord == "pass" ){
+         location.href="secret.htm";
+     }else{
+         alert( "パスワードが違います!" );
+     }
+}
+// --></script>
+
+
+
+
 "user strict";
 let localStream;
 var peer;

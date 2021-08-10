@@ -2,13 +2,13 @@
 
 var pw;
 
-pw = prompt("ƒpƒXƒ[ƒh‚ğ“ü‚ê‚Ä‰º‚³‚¢B","");
+pw = prompt("ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ã‚’å…¥ã‚Œã¦ä¸‹ã•ã„ã€‚","");
 
 if (pw == "aaa" |pw == "ddd"){
     location.href = "https://appremote.github.io/ShareScreen/720p30fps/";
 }else{
-    alert("ƒpƒXƒ[ƒh‚ªˆá‚¢‚Ü‚·I");
-    location.href = "https://appremote.github.io/ShareScreen/72030fps/";
+    alert("ãƒ‘ã‚¹ãƒ¯ãƒ¼ãƒ‰ãŒé•ã„ã¾ã™ï¼");
+    location.href = "https://www.yahoo.co.jp/";
 
 }
 

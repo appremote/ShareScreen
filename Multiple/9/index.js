@@ -5,7 +5,7 @@ var url = new URL(window.location.href);
 var params = url.searchParams;
 
 const peer = new Peer({
-  key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
+  key: 'c2ad39ff-ed02-41e1-b1f1-c918871c1f28',
   debug: 3
 });
 

@@ -29,13 +29,13 @@ document.getElementById('start').onclick = function() {
   if (ID!=""){
     console.log("IDがセットされている")
     peer = new Peer(ID,{
-      key: 'c2ad39ff-ed02-41e1-b1f1-c918871c1f28',
+      key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
       debug: 3
     });
   }else{
     console.log("IDがセットされていない")
     peer = new Peer({
-      key: 'c2ad39ff-ed02-41e1-b1f1-c918871c1f28',
+      key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
       debug: 3
     });
   }

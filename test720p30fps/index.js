@@ -30,13 +30,19 @@ document.getElementById('start').onclick = function() {
     console.log("IDがセットされている")
     peer = new Peer(ID,{
       key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
-      debug: 3
+      debug: 3,
+      config: {
+        iceTransportPolicy: 'relay',
+      }
     });
   }else{
     console.log("IDがセットされていない")
     peer = new Peer({
       key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
-      debug: 3
+      debug: 3,
+      config: {
+        iceTransportPolicy: 'relay',
+      }
     });
   }
   

@@ -6,7 +6,10 @@ var params = url.searchParams;
 
 const peer = new Peer({
   key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
-  debug: 3
+  debug: 3,
+  config: {
+    iceTransportPolicy: 'relay',
+  }
 });
 
 document.getElementById('button01').onclick = () => {

@@ -5,7 +5,7 @@ var url = new URL(window.location.href);
 var params = url.searchParams;
 
 const peer = new Peer({
-  key: 'c2ad39ff-ed02-41e1-b1f1-c918871c1f28',
+  key: '30c3a75c-c746-4f2d-a676-bd436ea1c7b3',
   debug: 3
 });
 
@@ -60,10 +60,10 @@ window.onload = function() {
   //document.getElementById('text01').value=params.get('id');
 }
 
-// イベントリスナを設置する関数
+// 繧､繝吶Φ繝医Μ繧ｹ繝翫ｒ險ｭ鄂ｮ縺吶ｋ髢｢謨ｰ
 function setEventListener (mediaConnection, listt){
   mediaConnection.on('stream', stream => {
-    // video要素にカメラ映像をセットして再生
+    // video隕∫ｴ縺ｫ繧ｫ繝｡繝ｩ譏蜒上ｒ繧ｻ繝�繝医＠縺ｦ蜀咲函
     strrr='their-video0'+listt
     const videoElm = document.getElementById(strrr)
     videoElm.srcObject = stream;

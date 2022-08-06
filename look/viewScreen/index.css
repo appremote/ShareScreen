@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cener {
+  text-align: center;
+}
+.oomatome {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.sample1 {
+  padding-left: 7.5vw;
+  padding-right: 7.5vw;
+}
+.vivi {
+  width: 85vw;
+}

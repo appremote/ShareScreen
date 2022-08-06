@@ -29,20 +29,14 @@ document.getElementById("start").onclick = function () {
   if (ID != "") {
     console.log("IDがセットされている");
     peer = new Peer(ID, {
-      key: "30c3a75c-c746-4f2d-a676-bd436ea1c7b3",
+      key: "c2ad39ff-ed02-41e1-b1f1-c918871c1f28",
       debug: 3,
-      config: {
-        iceTransportPolicy: "relay",
-      },
     });
   } else {
     console.log("IDがセットされていない");
     peer = new Peer({
-      key: "30c3a75c-c746-4f2d-a676-bd436ea1c7b3",
+      key: "c2ad39ff-ed02-41e1-b1f1-c918871c1f28",
       debug: 3,
-      config: {
-        iceTransportPolicy: "relay",
-      },
     });
   }
 
@@ -60,18 +54,12 @@ document.getElementById("start").onclick = function () {
     "https://share-screen.vercel.app/look/viewScreen/?id=" + ID
   );
   console.log(peer.id);
-  document.getElementById("my-id").style.display = "none";
-  document.getElementById("set-id-txt").style.display = "none";
-  document.getElementById("set-id").style.display = "none";
-  document.getElementById("setu-txt").style.display = "none";
-  document.getElementById("url").style.display = "block";
 };
 
 const localVideo = document.querySelector("video");
 
 function gotLocalMediaStream(mediaStream) {
   localStream = mediaStream;
-  localVideo.srcObject = mediaStream;
 }
 
 function handleLocalMediaStreamError(error) {

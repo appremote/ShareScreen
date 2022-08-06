@@ -9,6 +9,8 @@ const peer = new Peer({
   debug: 3,
 });
 
+document.getElementById("text01").value = params.get("id");
+
 document.getElementById("button01").onclick = () => {
   const theirID = document.getElementById("text01").value;
   const mediaConnection = peer.call(theirID, localStream[0]);
